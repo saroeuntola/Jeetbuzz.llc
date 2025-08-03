@@ -20,13 +20,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'u582932647_Cyda5' );
 
 /** Database username */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'u582932647_SehfB' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', 'Welcome2@FancyW88' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -71,7 +71,7 @@ define('NONCE_SALT',       ',ODuI`KDV8FPwi1BeSuew^AK{bnWZ`2SMOC9qV3BU3A4W<mtTbKH
  *
  * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
-$table_prefix = 'wp_';
+$table_prefix = 'ZGU1YT_';
 
 /**
  * For developers: WordPress debugging mode.
