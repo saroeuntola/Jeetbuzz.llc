@@ -1,14 +1,9 @@
 <?php
-define( 'WP_CACHE', true );
-define( 'DISABLE_WP_CRON', true );
- // Added by WP Rocket
-
-define( 'WP_MEMORY_LIMIT', '128M' );
 /**
  * The base configuration for WordPress
  *
  * The wp-config.php creation script uses this file during the installation.
- * You don't have to use the web site, you can copy this file to "wp-config.php"
+ * You don't have to use the website, you can copy this file to "wp-config.php"
  * and fill in the values.
  *
  * This file contains the following configurations:
@@ -16,32 +11,31 @@ define( 'WP_MEMORY_LIMIT', '128M' );
  * * Database settings
  * * Secret keys
  * * Database table prefix
- * * Localized language
  * * ABSPATH
  *
- * @link https://wordpress.org/support/article/editing-wp-config-php/
+ * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/
  *
  * @package WordPress
  */
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'jeetbuzzllc_NGRmZDkzY2VkMDQzNG_dbname' );
+define( 'DB_NAME', 'database_name_here' );
 
 /** Database username */
-define( 'DB_USER', 'jeetbuzzllc_NGRmZDkzY2VkMDQzNG_username' );
+define( 'DB_USER', 'username_here' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'NGRmZDkzY2VkMDQzNGY1M2U0NzE5ZDMwZmYy' );
+define( 'DB_PASSWORD', 'password_here' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
+define( 'DB_CHARSET', 'utf8' );
 
 /** The database collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', 'utf8mb4_unicode_ci' );
+define( 'DB_COLLATE', '' );
 
 /**#@+
  * Authentication unique keys and salts.
@@ -54,16 +48,14 @@ define( 'DB_COLLATE', 'utf8mb4_unicode_ci' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',          'bn,QwF1*JT,x27N1gS%^9y6Z)JofklC|$CQFf]sGa8f1}YJ5*iiID}RJkm;wZ2^z' );
-define( 'SECURE_AUTH_KEY',   'Yj!8uz?az4UoH>1X*jAuMmDEBr3#{, Xf`sYEf=_ndQF^^h_oRM$^=$Uo^*i/stD' );
-define( 'LOGGED_IN_KEY',     'dp.@H18Ol:rD5-G2`kBIP-ZMqn-D$Q8u3%Gzpn@:c=`7z< 3:#@i!{:L2btqA<xu' );
-define( 'NONCE_KEY',         'Ye%JX[!Ms#Nct{Uu_[em}Q^K7]8Dtl`URSvFrvd`=09I:w&mq&uo|Z`7NEl;_=;&' );
-define( 'AUTH_SALT',         ':&5>QLpeGz? eL1bpDl6ZZ7ZVxJ}R,3uWV2H`*9~:`-&38A ]!e_:YOA`Q.9&a5w' );
-define( 'SECURE_AUTH_SALT',  '{FF$+J4#qZ&d7r6WOg8-Wk[z>A07&4J[@>c=r{MxMnZj%x/!:uQiLG@fia-R<I42' );
-define( 'LOGGED_IN_SALT',    '7-{4H-(Yn>f q$$]%5)X>:suyQzv;W|9YC`HoI9t$r`K6UQ>g@e~tU5R:>8m!_5|' );
-define( 'NONCE_SALT',        'fuuLM+gJDuG32?(],bDelpWTB%i_(m+t:Vc`S[!uwYTj{y5Lzv}hoh0+Tr7E6%x<' );
-define( 'WP_CACHE_KEY_SALT', 'xvxJIx%f* ^&Wfc9yx!$3MDot,G!25hQt>@O7KQhrL]t|MCNH4W3^cy$([)/3^T2' );
-
+define('AUTH_KEY',         ')|w3m-:b n;e@8|;%+gd%VrmtH,-EFKsy#l=, u%&Va|w.#|ZeN>_<:wTq)*zk5{');
+define('SECURE_AUTH_KEY',  '/trm:.H|~qx`ccJ|7pD&v+b1P3o-u3k9b&9+W029?)5ue!j1ws+O;<bXy;V`&b#q');
+define('LOGGED_IN_KEY',    'd;2V Y{/`-co%5d&xs_9.qnP9s,e|Fn:p6OK-f;]sL3p~H&G](R93bo|GdG?4mh4');
+define('NONCE_KEY',        ')>9sesr8m;XMV5;-*_^{9[Xy4[A[Wu@@s) ,7?}{4sHpw7:gB}k~<[O1TO0,21iy');
+define('AUTH_SALT',        'I. q4n^g#mg.Z{]RSAP ^GU7_J]Xx|v2}%q,5V)cK)-2=5ehJs-@VFHU;1r%j8zp');
+define('SECURE_AUTH_SALT', 'P^HVgI@c,3B?w;/!(I&]Dt40^DF@.?sG eJ!7@;BW~}72yWAn;f!SQ;7q-I?S&>c');
+define('LOGGED_IN_SALT',   '5PY%iA:sd^sO?OKX)5K+U{kI6Fj))bizUa^V{9a#hMq1`%(XWO[PRX;.<~Cm|O6J');
+define('NONCE_SALT',       ',ODuI`KDV8FPwi1BeSuew^AK{bnWZ`2SMOC9qV3BU3A4W<mtTbKH1J1Ev0F3quJC');
 
 /**#@-*/
 
@@ -72,15 +64,14 @@ define( 'WP_CACHE_KEY_SALT', 'xvxJIx%f* ^&Wfc9yx!$3MDot,G!25hQt>@O7KQhrL]t|MCNH4
  *
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
+ *
+ * At the installation time, database tables are created with the specified prefix.
+ * Changing this value after WordPress is installed will make your site think
+ * it has not been installed.
+ *
+ * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
-$table_prefix = 'ZGU1YT_';
-
-
-/* Add any custom values between this line and the "stop editing" line. */
-
-define( 'WP_DEBUG_LOG', false );
-define( 'WP_DEBUG_DISPLAY', false );
-
+$table_prefix = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -92,11 +83,13 @@ define( 'WP_DEBUG_DISPLAY', false );
  * For information on other constants that can be used for debugging,
  * visit the documentation.
  *
- * @link https://wordpress.org/support/article/debugging-in-wordpress/
+ * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-if ( ! defined( 'WP_DEBUG' ) ) {
-	define( 'WP_DEBUG', false );
-}
+define( 'WP_DEBUG', false );
+
+/* Add any custom values between this line and the "stop editing" line. */
+
+
 
 /* That's all, stop editing! Happy publishing. */
 
